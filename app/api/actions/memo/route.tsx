@@ -18,9 +18,9 @@ import {
 export const GET = (req: Request) => {
   const payload: ActionGetResponse = {
     icon: new URL("/dog.png", new URL(req.url).origin).toString(),
-    label: "Memo Demo",
-    title: "Memo Demo",
-    description: "This is a super simple Action",
+    label: "SOLANA",
+    title: "Solana Blink",
+    description: "This is a super simple Action learned from Super Team",
 
   };
 
