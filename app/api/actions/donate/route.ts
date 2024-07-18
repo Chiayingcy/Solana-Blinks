@@ -106,7 +106,7 @@ export const POST = async (req: Request) => {
       });
     }
 
-    const connection = new Connection(DEFAULT_RPC);
+    const connection = new Connection('https://api.devnet.solana.com');
 
     // ensure the receiving account will be rent exempt
     const minimumBalance = await connection.getMinimumBalanceForRentExemption(
